@@ -1,10 +1,38 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Page Title</title>
+  <meta charset="UTF-8">
+  <title>Navigation Bar</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <div class="navbar">
+    <a href="#" onclick="openTab('Home')">Home</a>
+    <a href="#" onclick="openTab('About')">About</a>
+    <a href="#" onclick="openTab('Services')">Services</a>
+    <a href="#" onclick="openTab('Contact')">Contact</a>
+  </div>
 
+  <div id="Home" class="tabContent">
+    <h2>Home</h2>
+    <p>Welcome to our website!</p>
+  </div>
 
+  <div id="About" class="tabContent" style="display: none;">
+    <h2>About</h2>
+    <p>Learn more about us here.</p>
+  </div>
+
+  <div id="Services" class="tabContent" style="display: none;">
+    <h2>Services</h2>
+    <p>Check out our services.</p>
+  </div>
+
+  <div id="Contact" class="tabContent" style="display: none;">
+    <h2>Contact</h2>
+    <p>Contact us for more information.</p>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
