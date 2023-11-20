@@ -1,38 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
+  <title></title>
   <meta charset="UTF-8">
-  <title>Navigation Bar</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-  <div class="navbar">
-    <a href="#" onclick="openTab('Home')">Home</a>
-    <a href="#" onclick="openTab('About')">About</a>
-    <a href="#" onclick="openTab('Services')">Services</a>
-    <a href="#" onclick="openTab('Contact')">Contact</a>
-  </div>
 
-  <div id="Home" class="tabContent">
-    <h2>Home</h2>
-    <p>Welcome to our website!</p>
-  </div>
 
-  <div id="About" class="tabContent" style="display: none;">
-    <h2>About</h2>
-    <p>Learn more about us here.</p>
-  </div>
+    <div class="navbar">
+      <img class="logo" src="img/gildeopleidingen.svg" alt="gildeOpleidingen.Models.Settings?.Websitename">
+      <img class="Devops" src="img/DevOps.png" alt="gildeOpleidingen.Models.Settings?.Websitename">
+        <div class="toggle-button">
+          <input type="checkbox" id="menu-toggle">
+          <label for="menu-toggle" class="menu-icon">&#9776;</label>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+        </div>
+      </div>
+      
+        <div class="container">
+              <div class="container2"></div>
+              <div class="container3"></div>
+        </div>
 
-  <div id="Services" class="tabContent" style="display: none;">
-    <h2>Services</h2>
-    <p>Check out our services.</p>
-  </div>
+        
 
-  <div id="Contact" class="tabContent" style="display: none;">
-    <h2>Contact</h2>
-    <p>Contact us for more information.</p>
-  </div>
-
-  <script src="script.js"></script>
 </body>
 </html>
+
+
