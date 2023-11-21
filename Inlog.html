@@ -8,8 +8,33 @@
 </head>
 <body>
     <div class="containerinlog">
-        <p>Inlog</p>
+        
+        <div><p>Login</p></div> 
+        
+        <div class="loginInputField">
+            <input type="email" placeholder="Email.." id="email">
+        </div>
+       
+        <div class="loginInputField">
+            <input type="password" placeholder="Password.." id="password">
+        </div>
+        
+        <div id="loginForgotPassword" style="display: flex;">
+        <a href="#" class="loginForgotPassword">Forgot password?</a>
+        </div>
+        
+        <div id="loginButton">
+            <button onclick="redirectToIndex()">Login</button>
+        </div>
+        
+        <script>
+            function redirectToIndex() {
+                // Redirect to index.html
+                window.location.href = "index.html";
+            }
+        </script>
     </div>
+
 
 </body>
 </html>
