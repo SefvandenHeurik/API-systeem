@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="main.js"></script>
 </head>
 <body>
     <div class="containerinlog">
@@ -20,21 +21,14 @@
         </div>
         
         <div id="loginForgotPassword" style="display: flex;">
-        <a href="#" class="loginForgotPassword">Forgot password?</a>
+            <a href="#" class="loginForgotPassword">Forgot password?</a>
+                <button onclick="redirectToforgetpassword()"></button>
         </div>
         
         <div id="loginButton">
-            <button onclick="redirectToIndex()">Login</button>
+                <button onclick="redirectToIndex()">Login</button>
         </div>
-        
-        <script>
-            function redirectToIndex() {
-                // Redirect to index.html
-                window.location.href = "index.html";
-            }
-        </script>
     </div>
-
 
 </body>
 </html>
