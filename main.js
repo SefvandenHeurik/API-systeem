@@ -56,5 +56,3 @@ function redirectToInlogmain() {
     // Redirect to Inlogmain.html
     window.location.href = "Inlogmain.html";
 }
-
-
