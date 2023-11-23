@@ -23,7 +23,7 @@ function redirectToInlogmain() {
     window.location.href = "Inlogmain.html";
 }
 
-function redirectToInlogmain() {
+function redirectToInlogdocent() {
   // Redirect to Inlogmain.html
-  window.location.href = "Inlogmain.html";
+  window.location.href = "inlogdocent.html";
 }
