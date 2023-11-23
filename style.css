@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Mainpage CSS */
 * {
   margin: 0px; 
@@ -658,3 +659,663 @@
 
 
 
+=======
+/* Mainpage CSS */
+* {
+  margin: 0px; 
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background-color:#00365E;
+}
+
+/* Basic styles for the navigation bar */
+.navbar {
+  background-color: #EEEEEE;
+  
+  display: flex;
+  align-items: center;
+  padding: 10px 30px;
+  position: relative;
+  border: 3px solid #DD0069;
+}
+
+#logoutButton2 button {
+  position: absolute; /* Plaatst de knop op een absolute positie binnen de container */
+  top: 55%; /* Plaatst de knop op 50% van de bovenkant van de container */
+  right: -4%; /* Plaatst de knop op 50% van de linkerzijde van de container */
+  transform: translate(-50%, -50%); /* Centreert de knop in het midden van de container */
+  padding: 10px 20px; /* Voegt wat ruimte toe aan de knop */
+  background-color: transparent; /* Achtergrondkleur van de knop */
+  color: white; /* Tekstkleur van de knop */
+  text-decoration: none; /* Verwijder de standaard onderstreping van de link */
+  cursor: pointer;
+  width: 13%;
+  border: none; /* Remove the border */
+  outline: none; /* Remove the outline */
+}
+
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #EEEEEE;
+  text-align: center;
+  padding: 30px 20px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.tabContent {
+  padding: 20px;
+  width: 15px;
+}
+
+.logo {
+  font-size: 5px; 
+  color: #EEEEEE;
+  font-weight: bold;
+   /* Add this to control the size of the image */
+   max-width: 15%; /* Ensures the image doesn't exceed the width of its container */
+   height: auto; /* Maintains the aspect ratio of the image */
+   background-color: #EEEEEE;
+}
+.Devops {
+    font-size: 5px; 
+    color: #EEEEEE;
+    font-weight: bold;
+    /* Add this to control the size of the image */
+    max-width: 20%; /* Ensures the image doesn't exceed the width of its container */
+    height: auto; /* Maintains the aspect ratio of the image */
+    background-color: transparent;
+    position:absolute;
+    top: 50%;
+    right: -3%;
+    transform: translate(0, -50%);
+}
+.toggle-button {
+  display: none;
+  flex-direction: column;
+  cursor: pointer; 
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  width: 450px;
+  position: relative;
+  background-color: #EEEEEE;
+  left: 3%;
+  border: 3px solid #DD0069;
+  margin-top: 8%; /* Make sure units are specified, e.g., top: 5%; or top: 10px; */
+  border-radius: 10px;
+}
+
+.container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  width: 450px;
+  position: fixed;
+  background-color: #EEEEEE;
+  right: 3%;
+  border: 3px solid #DD0069;
+  border-radius: 10px;
+
+}
+
+.container3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  width: 250px;
+  position: relative;
+  left: 105%;
+  background-color: #EEEEEE;
+  border: 3px solid #DD0069;
+  border-radius: 10px;
+}
+
+
+.bar {
+  background-color: #00365E;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  padding: 30px 50px;
+  position: relative;
+}
+
+.bar a {
+  float: left;
+  display: block;
+  color: #00365E;
+  text-align: center;
+  padding: 30px 20px;
+  text-decoration: none;
+}
+
+
+
+
+
+/* Main inlog pagina CSS */
+.containerinlog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 80vh;
+  width: 500px;
+  position: relative;
+  background-color: #EEEEEE;
+  left: 31%;
+  border: 3px solid #DD0069;
+  margin-top: 5%; /* Make sure units are specified, e.g., top: 5%; or top: 10px; */
+  border-radius: 10px;
+}
+
+
+.containerinlog p{
+  background-color: #EEEEEE;
+  font-size: 35px;
+  font-family: "Fira Sans", cursive;
+  text-shadow: -1px -1px 0 #00365E, 1px -1px 0 #00365E, -1px 1px 0 #00365E, 1px 1px 0 #00365E;
+  color: #00365E;
+  position: absolute;
+  top: 0;
+  margin-top: 8%;
+  right: 41%;
+}
+
+.loginInputField {
+    width: 80%;
+    height: 12%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 2px solid#DD0069;
+    background-color: #EEEEEE;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.containerinlog input{
+  width: 200%;
+  height: 12%;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid#CACACA;
+  background-color: #EEEEEE;
+  flex-direction: column;
+}
+
+#loginButton {
+    width: 80%;
+    height: 10%;
+    border-radius: 5px;
+    background: #00365E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Add margin-top for space below the input fields */
+    bottom: 0; /* Align the button to the bottom of the container */
+    text-decoration: none;
+}
+
+#loginButton :hover {
+  transition: .4s;
+  border: 3px dashed #00365E;
+  background-color: #DD0069;
+  color: #00365E;
+}
+
+#loginButton :active {
+  background-color: #87dbd0;
+}
+
+#loginButton button {
+  background: transparent;
+  color: #EEEEEE;
+  font-size: 18px;
+  border: none; /* Remove the border */
+    outline: none; /* Remove the outline */
+    width: 100%; /* Make the button width 100% of its container */
+    height: 100%; /* Make the button height 100% of its container */
+    cursor: pointer; /* Add cursor style */
+    text-decoration: none;
+}
+
+.loginForgotPassword, #signUpLink {
+  font-size: 14px;
+  font-weight: 400;
+  color: #00365E;
+  text-decoration: none;
+  background-color: #EEEEEE;
+}
+
+#loginForgotPassword button {
+  position: absolute; /* Plaatst de knop op een absolute positie binnen de container */
+  top: 62%; /* Plaatst de knop op 50% van de bovenkant van de container */
+  right: 25%; /* Plaatst de knop op 50% van de linkerzijde van de container */
+  transform: translate(-50%, -50%); /* Centreert de knop in het midden van de container */
+  padding: 10px 20px; /* Voegt wat ruimte toe aan de knop */
+  background-color: transparent; /* Achtergrondkleur van de knop */
+  color: white; /* Tekstkleur van de knop */
+  text-decoration: none; /* Verwijder de standaard onderstreping van de link */
+  cursor: pointer;
+  width: 25%;
+  border: none; /* Remove the border */
+    outline: none; /* Remove the outline */
+}
+
+
+
+
+/* Forgot password pagina CSS */
+.Email {
+  position: relative;
+  height: 240px;
+  width: 340px;
+  padding: 20px;
+  background-color: #EEEEEE;
+  border-radius: 4px;
+  color: #EEEEEE;
+  margin-top: 13%;
+  margin-left: 37%;
+  border: 3px solid #DD0069;
+}
+
+.Email:after {
+  position: absolute;
+  content: "";
+  right: -10px;
+  bottom: 18px;
+  width: 0;
+  height: 0;
+  border-left: 0px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #00365E;
+}
+
+.Email p {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  line-height: 28px;
+  background-color: #EEEEEE;
+  font-family: "Fira Sans", cursive;
+  color: #00365E;
+}
+
+.Email .Mail input {
+  position: absolute;
+  bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #d4d4d4;
+  padding: 10px;
+  width: 82%;
+  background: transparent;
+  transition: all .25s ease;
+  margin-bottom: 33%;
+}
+
+.Email .changepassword input {
+  position: absolute;
+  bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #d4d4d4;
+  padding: 10px;
+  width: 82%;
+  background: transparent;
+  transition: all .25s ease;
+  margin-bottom: 19%;
+}
+
+.Email .repeatpassword input {
+  position: absolute;
+  bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #d4d4d4;
+  padding: 10px;
+  width: 82%;
+  background: transparent;
+  transition: all .25s ease;
+  margin-bottom: 6%;
+}
+
+.Email .Mail input:focus {
+  outline: none;
+  border-bottom: 1px solid #0d095e;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', 'sans-serif';
+  margin-bottom: 33%;
+}
+
+.Email .changepassword input:focus {
+  outline: none;
+  border-bottom: 1px solid #0d095e;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', 'sans-serif';
+  margin-bottom: 19%;
+}
+
+.Email .repeatpassword input:focus {
+  outline: none;
+  border-bottom: 1px solid #0d095e;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', 'sans-serif';
+  margin-bottom: 6%;
+}
+
+.Email .submit-btn {
+  position: absolute;
+  border-radius: 30px;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  background-color: #0d095e;
+  color: #FFF;
+  padding: 12px 25px;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  right: -10px;
+  bottom: -20px;
+  cursor: pointer;
+  transition: all .25s ease;
+  box-shadow: -5px 6px 20px 0px rgba(26, 26, 26, 0.4);
+}
+
+.Email .submit-btn:hover {
+  background-color: #DD0069;
+  box-shadow: -5px 6px 20px 0px rgba(88, 88, 88, 0.569);
+}
+
+.submit-btn button {
+  position: absolute; /* Plaatst de knop op een absolute positie binnen de container */
+  top: 55%; /* Plaatst de knop op 50% van de bovenkant van de container */
+  right: -30%; /* Plaatst de knop op 50% van de linkerzijde van de container */
+  transform: translate(-50%, -50%); /* Centreert de knop in het midden van de container */
+  padding: 10px 20px; /* Voegt wat ruimte toe aan de knop */
+  background-color: transparent; /* Achtergrondkleur van de knop */
+  color: white; /* Tekstkleur van de knop */
+  text-decoration: none; /* Verwijder de standaard onderstreping van de link */
+  cursor: pointer;
+  width: 100px;
+  border: none; /* Remove the border */
+  outline: none; /* Remove the outline */
+}
+
+
+
+
+/* Docenten inlog pagina CSS */
+.containerdocenteninlog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 80vh;
+  width: 500px;
+  position: relative;
+  background-color: #EEEEEE;
+  left: 31%;
+  border: 3px solid #DD0069;
+  margin-top: 5%; /* Make sure units are specified, e.g., top: 5%; or top: 10px; */
+  border-radius: 10px;
+}
+
+
+.containerdocenteninlog p{
+  background-color: #EEEEEE;
+  font-size: 35px;
+  font-family: "Fira Sans", cursive;
+  text-shadow: -1px -1px 0 #00365E, 1px -1px 0 #00365E, -1px 1px 0 #00365E, 1px 1px 0 #00365E;
+  color: #00365E;
+  position: absolute;
+  top: 0;
+  margin-top: 8%;
+  right: 26%;
+}
+
+.loginInputFieldDocenten {
+  width: 80%;
+  height: 12%;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 2px solid#DD0069;
+  background-color: #EEEEEE;
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+.loginForgotPasswordDocenten, #signUpLink {
+  font-size: 14px;
+  font-weight: 400;
+  color: #00365E;
+  text-decoration: none;
+  background-color: #EEEEEE;
+}
+
+#loginForgotPasswordDocenten button {
+  position: absolute; /* Plaatst de knop op een absolute positie binnen de container */
+  top: 62%; /* Plaatst de knop op 50% van de bovenkant van de container */
+  right: 25%; /* Plaatst de knop op 50% van de linkerzijde van de container */
+  transform: translate(-50%, -50%); /* Centreert de knop in het midden van de container */
+  padding: 10px 20px; /* Voegt wat ruimte toe aan de knop */
+  background-color: transparent; /* Achtergrondkleur van de knop */
+  color: white; /* Tekstkleur van de knop */
+  text-decoration: none; /* Verwijder de standaard onderstreping van de link */
+  cursor: pointer;
+  width: 25%;
+  border: none; /* Remove the border */
+    outline: none; /* Remove the outline */
+}
+
+.containerdocenteninlog input{
+  width: 200%;
+  height: 12%;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid#CACACA;
+  background-color: #EEEEEE;
+  flex-direction: column;
+}
+
+#loginDocentenButton {
+    width: 80%;
+    height: 10%;
+    border-radius: 5px;
+    background: #00365E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Add margin-top for space below the input fields */
+    bottom: 0; /* Align the button to the bottom of the container */
+    text-decoration: none;
+}
+
+#loginDocentenButton :hover {
+  transition: .4s;
+  border: 3px dashed #00365E;
+  background-color: #DD0069;
+  color: #00365E;
+}
+
+#loginDocentenButton :active {
+  background-color: #87dbd0;
+}
+
+#loginDocentenButton button {
+  background: transparent;
+  color: #EEEEEE;
+  font-size: 18px;
+  border: none; /* Remove the border */
+    outline: none; /* Remove the outline */
+    width: 100%; /* Make the button width 100% of its container */
+    height: 100%; /* Make the button height 100% of its container */
+    cursor: pointer; /* Add cursor style */
+    text-decoration: none;
+}
+
+
+
+
+/* Choose Inlog CSS */
+.containerchooseinlog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 80vh;
+  width: 500px;
+  position: relative;
+  background-color: #EEEEEE;
+  left: 31%;
+  border: 3px solid #DD0069;
+  margin-top: 5%; /* Make sure units are specified, e.g., top: 5%; or top: 10px; */
+  border-radius: 10px;
+}
+
+
+.containerchooseinlog p{
+  background-color: #EEEEEE;
+  font-size: 35px;
+  font-family: "Fira Sans", cursive;
+  text-shadow: -1px -1px 0 #00365E, 1px -1px 0 #00365E, -1px 1px 0 #00365E, 1px 1px 0 #00365E;
+  color: #00365E;
+  position: absolute;
+  top: 0;
+  margin-top: 8%;
+  right: 26%;
+}
+
+.MainpageButton1 {
+  background: #00365E;
+  color: #EEEEEE;
+  font-family: inherit;
+  padding: 0.35em;
+  padding-left: 1.2em;
+  font-size: 17px;
+  font-weight: 500;
+  border-radius: 0.9em;
+  border: none;
+  letter-spacing: 0.05em;
+  display: flex;
+  align-items: center;
+  box-shadow: inset 0 0 1.6em -0.6em #DD0069;
+  overflow: hidden;
+  position: relative;
+  height: 2.8em;
+  padding-right: 3.3em;
+  cursor: pointer;
+}
+
+.MainpageButton1 .icon {
+  background: #EEEEEE;
+  margin-left: 1em;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.2em;
+  width: 2.2em;
+  border-radius: 0.7em;
+  box-shadow: 0.1em 0.1em 0.6em 0.2em #DD0069;
+  right: 0.3em;
+  transition: all 0.3s;
+}
+
+.MainpageButton1:hover .icon {
+  width: calc(100% - 0.6em);
+}
+
+.MainpageButton1 .icon svg {
+  width: 1.1em;
+  transition: transform 0.3s;
+  color: #EEEEEE;
+}
+
+.MainpageButton1:hover .icon svg {
+  transform: translateX(0.1em);
+}
+
+.MainpageButton1:active .icon {
+  transform: scale(0.95);
+}
+
+.MainpageButton2 {
+  background: #00365E;
+  color: #EEEEEE;
+  font-family: inherit;
+  padding: 0.35em;
+  padding-left: 1.2em;
+  font-size: 17px;
+  font-weight: 500;
+  border-radius: 0.9em;
+  border: none;
+  letter-spacing: 0.05em;
+  display: flex;
+  align-items: center;
+  box-shadow: inset 0 0 1.6em -0.6em #DD0069;
+  overflow: hidden;
+  position: relative;
+  height: 2.8em;
+  padding-right: 3.3em;
+  cursor: pointer;
+  width: 48%;
+  top: 3%;
+}
+
+.MainpageButton2 .icon {
+  background: #EEEEEE;
+  margin-left: 1em;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.2em;
+  width: 2.2em;
+  border-radius: 0.7em;
+  box-shadow: 0.1em 0.1em 0.6em 0.2em #DD0069;
+  right: 0.3em;
+  transition: all 0.3s;
+}
+
+.MainpageButton2:hover .icon {
+  width: calc(100% - 0.6em);
+}
+
+.MainpageButton2 .icon svg {
+  width: 1.1em;
+  transition: transform 0.3s;
+  color: #EEEEEE;
+}
+
+.MainpageButton2:hover .icon svg {
+  transform: translateX(0.1em);
+}
+
+.MainpageButton2:active .icon {
+  transform: scale(0.95);
+}
+
+>>>>>>> 9207c2a5410657cdf784d442008c136dae8e285a
