@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 function openTab(tabName) {
     // Verberg alle tabbladen
     var tabs = document.getElementsByClassName("tabContent");
@@ -32,7 +31,7 @@ function redirectToInlogmain() {
 function redirectToInlogmain() {
   // Redirect to inlogmain.html
   window.location.href = "inlogmain.html";
-=======
+
 function openTab(tabName) {
     // Verberg alle tabbladen
     var tabs = document.getElementsByClassName("tabContent");
@@ -61,5 +60,4 @@ function redirectToInlogmain() {
 function redirectToInlogdocent() {
   // Redirect to Inlogmain.html
   window.location.href = "inlogdocent.html";
->>>>>>> 9207c2a5410657cdf784d442008c136dae8e285a
 }
