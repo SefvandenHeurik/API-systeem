@@ -9,9 +9,9 @@ function openTab(tabName) {
     document.getElementById(tabName).style.display = "block";
   }
 
-function redirectToIndex() {
-    // Redirect to index.html
-    window.location.href = "index.html";
+function redirectTomainscreen() {
+    // Redirect to mainscreen.html
+    window.location.href = "mainscreen.html";
 }
 function redirectToforgetpassword() {
     // Redirect to forgetpassword.html
@@ -26,4 +26,9 @@ function redirectToInlogmain() {
 function redirectToInlogmain() {
   // Redirect to Inlogmain.html
   window.location.href = "Inlogmain.html";
+}
+
+function redirectToInlogmain() {
+  // Redirect to inlogmain.html
+  window.location.href = "inlogmain.html";
 }
