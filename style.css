@@ -154,7 +154,7 @@
   height: 80vh;
   width: 500px;
   position: relative;
-  background-color: red;
+  background-color: #EEEEEE;
   left: 31%;
   border: 3px solid #DD0069;
   margin-top: 5%; /* Make sure units are specified, e.g., top: 5%; or top: 10px; */
@@ -297,6 +297,7 @@
   line-height: 28px;
   background-color: #EEEEEE;
   font-family: "Fira Sans", cursive;
+  color: #00365E;
 }
 
 .Email .Mail input {
