@@ -18,12 +18,18 @@ function redirectToforgetpassword() {
     window.location.href = "forgetpassword.html";
 }
 
-function redirectToInlogmain() {
-    // Redirect to Inlogmain.html
-    window.location.href = "Inlogmain.html";
+function redirectTomainscreen() {
+    // Redirect to mainscreen.html
+    window.location.href = "mainscreen.html";
 }
 
-function redirectToInlogdocent() {
+function redirectToinlogdocent() {
   // Redirect to inlogmain.html
   window.location.href = "inlogdocent.html";
 }
+
+function redirectToindex() {
+  // Redirect to index.html
+  window.location.href = "index.html";
+}
+
