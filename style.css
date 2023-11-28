@@ -249,7 +249,7 @@
   border-radius: 30px;
   border-bottom-right-radius: 0;
   border-top-right-radius: 0;
-  background-color: #00365E;
+  background-color: #DD0069;
   color: #FFF;
   padding: 12px 25px;
   display: inline-block;
@@ -260,12 +260,12 @@
   bottom: -20px;
   cursor: pointer;
   transition: all .25s ease;
-  box-shadow: -5px 6px 20px 0px rgba(26, 26, 26, 0.4);
+  box-shadow: -5px 6px 20px 0px #00365E(26, 26, 26, 0.4);
 }
 
 .Email .submit-btn:hover {
-  background-color: #DD0069;
-  box-shadow: -5px 6px 20px 0px rgba(88, 88, 88, 0.569);
+  background-color: #00365E;
+  box-shadow: -5px 6px 20px 0px #00365E(88, 88, 88, 0.569);
 }
 
 .submit-btn:hover button {
@@ -561,10 +561,13 @@ background-color: transparent;
   cursor: pointer;
 }
 
+
+
+/* Docenten pagina */
 form {
   display: flex;
   flex-direction: column;
-  width: 300px;
+  width: 440px;
   margin: 0 auto;
   background-color: #EEEEEE;
 }
@@ -576,6 +579,9 @@ input[type="text"] {
   border-radius: 5px;
   font-size: 16px;
   background-color: #EEEEEE;
+  height: 360px;
+  text-align: left;
+  text-align: top;
 }
 
 button {

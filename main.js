@@ -33,3 +33,12 @@ function redirectToindex() {
   window.location.href = "index.html";
 }
 
+  // Haal de ingevoerde tekst op
+  var textValue = document.getElementById("textInput").value;
+  
+  // Voer de actie uit met de opgehaalde tekst (bijv. verzenden naar server)
+  console.log("Ingevoerde tekst: ", textValue);
+  
+  // Reset het invoerveld naar leeg
+  document.getElementById("textInput").value = "";
+
