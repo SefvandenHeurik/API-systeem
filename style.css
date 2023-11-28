@@ -145,120 +145,7 @@
 
 
 
-/* Main inlog pagina CSS */
-.containerinlog {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  height: 80vh;
-  width: 500px;
-  position: relative;
-  background-color: #EEEEEE;
-  left: 31%;
-  border: 3px solid #DD0069;
-  margin-top: 5%; /* Make sure units are specified, e.g., top: 5%; or top: 10px; */
-  border-radius: 10px;
-}
 
-
-.containerinlog p{
-  background-color: #EEEEEE;
-  font-size: 35px;
-  font-family: "Fira Sans", cursive;
-  text-shadow: -1px -1px 0 #00365E, 1px -1px 0 #00365E, -1px 1px 0 #00365E, 1px 1px 0 #00365E;
-  color: #00365E;
-  position: absolute;
-  top: 0;
-  margin-top: 8%;
-  right: 41%;
-}
-
-.loginInputField {
-    width: 80%;
-    height: 12%;
-    border-radius: 5px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    border: 2px solid#DD0069;
-    background-color: #EEEEEE;
-    font-size: 30px;
-    margin-bottom: 40px;
-}
-
-.containerinlog input{
-  width: 200%;
-  height: 12%;
-  border-radius: 5px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px;
-  border: 1px solid#CACACA;
-  background-color: #EEEEEE;
-  flex-direction: column;
-}
-
-#loginButton {
-    width: 80%;
-    height: 10%;
-    border-radius: 5px;
-    background: #00365E;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px; /* Add margin-top for space below the input fields */
-    bottom: 0; /* Align the button to the bottom of the container */
-    text-decoration: none;
-}
-
-#loginButton :hover {
-  transition: .4s;
-  border: 3px dashed #00365E;
-  background-color: #DD0069;
-  color: #00365E;
-}
-
-#loginButton :active {
-  background-color: #87dbd0;
-}
-
-#loginButton button {
-  background: transparent;
-  color: #EEEEEE;
-  font-size: 18px;
-  border: none; /* Remove the border */
-    outline: none; /* Remove the outline */
-    width: 100%; /* Make the button width 100% of its container */
-    height: 100%; /* Make the button height 100% of its container */
-    cursor: pointer; /* Add cursor style */
-    text-decoration: none;
-}
-
-.loginForgotPassword, #signUpLink {
-  font-size: 14px;
-  font-weight: 400;
-  color: #00365E;
-  text-decoration: none;
-  background-color: #EEEEEE;
-}
-
-#loginForgotPassword button {
-  position: absolute; /* Plaatst de knop op een absolute positie binnen de container */
-  top: 62%; /* Plaatst de knop op 50% van de bovenkant van de container */
-  right: 25%; /* Plaatst de knop op 50% van de linkerzijde van de container */
-  transform: translate(-50%, -50%); /* Centreert de knop in het midden van de container */
-  padding: 10px 20px; /* Voegt wat ruimte toe aan de knop */
-  background-color: transparent; /* Achtergrondkleur van de knop */
-  color: white; /* Tekstkleur van de knop */
-  text-decoration: none; /* Verwijder de standaard onderstreping van de link */
-  cursor: pointer;
-  width: 25%;
-  border: none; /* Remove the border */
-    outline: none; /* Remove the outline */
-}
 
 
 
@@ -345,14 +232,14 @@
 
 .Email .changepassword input:focus {
   outline: none;
-  border-bottom: 1px solid #0d095e;
+  border-bottom: 1px solid #00365E;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', 'sans-serif';
   margin-bottom: 19%;
 }
 
 .Email .repeatpassword input:focus {
   outline: none;
-  border-bottom: 1px solid #0d095e;
+  border-bottom: 1px solid #00365E;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', 'sans-serif';
   margin-bottom: 6%;
 }
@@ -362,7 +249,7 @@
   border-radius: 30px;
   border-bottom-right-radius: 0;
   border-top-right-radius: 0;
-  background-color: #0d095e;
+  background-color: #00365E;
   color: #FFF;
   padding: 12px 25px;
   display: inline-block;
@@ -379,6 +266,10 @@
 .Email .submit-btn:hover {
   background-color: #DD0069;
   box-shadow: -5px 6px 20px 0px rgba(88, 88, 88, 0.569);
+}
+
+.submit-btn:hover button {
+background-color: transparent;
 }
 
 .submit-btn button {
@@ -452,7 +343,7 @@
 
 #loginForgotPasswordDocenten button {
   position: absolute; /* Plaatst de knop op een absolute positie binnen de container */
-  top: 62%; /* Plaatst de knop op 50% van de bovenkant van de container */
+  top: 65%; /* Plaatst de knop op 50% van de bovenkant van de container */
   right: 25%; /* Plaatst de knop op 50% van de linkerzijde van de container */
   transform: translate(-50%, -50%); /* Centreert de knop in het midden van de container */
   padding: 10px 20px; /* Voegt wat ruimte toe aan de knop */
