@@ -565,6 +565,7 @@
   height: 2.8em;
   padding-right: 3.3em;
   cursor: pointer;
+  width: 48%;
 }
 
 .MainpageButton1 .icon {
@@ -654,4 +655,62 @@
 
 .MainpageButton2:active .icon {
   transform: scale(0.95);
+}
+
+.back-button {
+  /* Add your existing button styles here */
+  /* For example: */
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  color: #EEEEEE;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 0 auto;
+  background-color: #EEEEEE;
+}
+
+input[type="text"] {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 3px solid #DD0069;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #EEEEEE;
+}
+
+button {
+  padding: 10px 15px;
+  border: solid #DD0069;
+  border-radius: 3px;
+  background-color: #EEEEEE;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.tekstbox1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  width: 450px;
+  position: relative;
+  background-color: #EEEEEE;
+  left: 3%;
+  border: 3px solid #DD0069;
+  margin-top: 8%; /* Make sure units are specified, e.g., top: 5%; or top: 10px; */
+  border-radius: 10px;
 }
