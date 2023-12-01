@@ -9,23 +9,23 @@ function openTab(tabName) {
     document.getElementById(tabName).style.display = "block";
   }
 
-function redirectTomainscreen() {
+function redirectToDash() {
     // Redirect to mainscreen.html
-    window.location.href = "mainscreen.html";
-}
-function redirectToforgetpassword() {
-    // Redirect to forgetpassword.html
-    window.location.href = "forgetpassword.html";
+    window.location.href = "docenten.php";
 }
 
 function redirectTomainscreen() {
-    // Redirect to mainscreen.html
-    window.location.href = "mainscreen.html";
+  // Redirect to mainscreen.html
+  window.location.href = "mainscreen.html";
+}
+function redirectToregister() {
+    // Redirect to forgetpassword.html
+    window.location.href = "register_form.php";
 }
 
 function redirectToinlogdocent() {
   // Redirect to inlogmain.html
-  window.location.href = "inlogdocent.html";
+  window.location.href = "inlogdocent.php";
 }
 
 function redirectToindex() {
