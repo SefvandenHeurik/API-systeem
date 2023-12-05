@@ -3,6 +3,11 @@
 
 session_start();
 
+if (!isset($_SESSION['admin_name'])) {
+    header('location:inlogdocent.php');
+    exit();
+}
+
 if (isset($_POST['submit'])) {
 
     $email = isset($_POST['email']) ? mysqli_real_escape_string($conn, $_POST['email']) : '';
