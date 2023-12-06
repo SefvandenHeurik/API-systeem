@@ -320,8 +320,7 @@ background-color: transparent;
 }
 
 .loginInputFieldDocenten {
-  width: 80%;
-  height: 12%;
+  width: 100%;
   border-radius: 5px;
   display: flex;
   justify-content: space-between;
@@ -340,20 +339,23 @@ background-color: transparent;
   text-decoration: none;
   background-color: #EEEEEE;
 }
+ /* #loginForgotPasswordDocenten a{
+
+} */
 
 #loginForgotPasswordDocenten button {
-  position: absolute; /* Plaatst de knop op een absolute positie binnen de container */
-  top: 65%; /* Plaatst de knop op 50% van de bovenkant van de container */
-  right: 25%; /* Plaatst de knop op 50% van de linkerzijde van de container */
-  transform: translate(-50%, -50%); /* Centreert de knop in het midden van de container */
-  padding: 10px 20px; /* Voegt wat ruimte toe aan de knop */
-  background-color: transparent; /* Achtergrondkleur van de knop */
-  color: white; /* Tekstkleur van de knop */
-  text-decoration: none; /* Verwijder de standaard onderstreping van de link */
+  position: absolute; 
+  top: 75%; 
+  right: 25%; 
+  transform: translate(-50%, -50%); 
+  padding: 10px 20px; 
+  background-color: transparent; 
+  color: white; 
+  text-decoration: none; 
   cursor: pointer;
   width: 25%;
-  border: none; /* Remove the border */
-    outline: none; /* Remove the outline */
+  border: none; 
+  outline: none; 
 }
 
 .containerdocenteninlog input{
