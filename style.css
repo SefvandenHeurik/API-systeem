@@ -7,6 +7,7 @@
   background-color:#00365E;
 }
 
+
 /* Basic styles for the navigation bar */
 .navbar {
   background-color: #EEEEEE;
@@ -338,6 +339,7 @@ background-color: transparent;
   color: #00365E;
   text-decoration: none;
   background-color: #EEEEEE;
+  text-align:center;
 }
  /* #loginForgotPasswordDocenten a{
 
@@ -345,16 +347,16 @@ background-color: transparent;
 
 #loginForgotPasswordDocenten button {
   position: absolute; 
-  top: 75%; 
+  top: 80%; 
   right: 25%; 
   transform: translate(-50%, -50%); 
   padding: 10px 20px; 
-  background-color: transparent; 
+  background-color: #DD0069; 
   color: white; 
   text-decoration: none; 
   cursor: pointer;
   width: 25%;
-  border: none; 
+  border-radius: 20px;
   outline: none; 
 }
 
@@ -614,4 +616,8 @@ button:hover {
   border-radius: 10px;
 }
 
-
+.error-msg{
+background-color:#EEEEEE;
+top: -20px; /* Adjust this value to move the error message higher up */
+position: relative;
+}
