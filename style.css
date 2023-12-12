@@ -142,15 +142,6 @@
   text-decoration: none;
 }
 
-
-
-
-
-
-
-
-
-
 /* Forgot password pagina CSS */
 .Email {
   position: relative;
@@ -332,6 +323,12 @@ background-color: transparent;
   font-size: 30px;
   margin-bottom: 40px;
 }
+.loginForgotPasswordDocenten {
+ 
+  display: block;
+  margin: 0 auto;
+    
+}
 
 .loginForgotPasswordDocenten, #signUpLink {
   font-size: 14px;
@@ -341,9 +338,9 @@ background-color: transparent;
   background-color: #EEEEEE;
   text-align:center;
 }
- /* #loginForgotPasswordDocenten a{
-
-} */
+  #loginForgotPasswordDocenten a{
+  text-align:center;
+} 
 
 #loginForgotPasswordDocenten button {
   position: absolute; 
@@ -358,6 +355,7 @@ background-color: transparent;
   width: 25%;
   border-radius: 20px;
   outline: none; 
+  
 }
 
 .containerdocenteninlog input{
@@ -371,6 +369,7 @@ background-color: transparent;
   border: 1px solid#CACACA;
   background-color: #EEEEEE;
   flex-direction: column;
+  
 }
 
 #loginDocentenButton {
@@ -438,7 +437,8 @@ background-color: transparent;
   position: absolute;
   top: 0;
   margin-top: 8%;
-  right: 26%;
+  right: 32%;
+ 
 }
 
 .MainpageButton1 {

@@ -33,7 +33,7 @@ if (isset($_POST['submit'])) {
             header('location: docenten.php');
         }
     } else {
-        $error[] = 'Incorrect email or password!';
+        $error[] = 'Onjuist e-mail of wachtwoord!';
     }
 }
 ?>
@@ -46,7 +46,7 @@ if (isset($_POST['submit'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
     <script src="main.js"></script>
-    <title>Docenten Login</title>
+    <title>Docenten Inlog</title>
 </head>
 
 <body>
@@ -54,7 +54,7 @@ if (isset($_POST['submit'])) {
     <div class="containerdocenteninlog">
 
         <div>
-            <p>Docenten Login</p>
+            <p>Docenten Inlog</p>
         </div>
 
      
@@ -73,12 +73,12 @@ if (isset($_POST['submit'])) {
             </div>
 
             <div class="loginInputFieldDocenten">
-                <input type="password" name="password" placeholder="Password.." id="password">
+                <input type="password" name="password" placeholder="Wachtwoord.." id="password">
             </div>
 
-            <div id="loginForgotPasswordDocenten" style="display: flex;">
-                <a href="#" class="loginForgotPasswordDocenten">Register</a>
-                <button type="submit" name="submit">Login</button>
+            <div id="loginForgotPasswordDocenten" style="display: flex background-color:#eeee";>
+                <a href="register_form.php" class="loginForgotPasswordDocenten">Registreer</a>
+                <button type="submit" name="submit">Inloggen</button>
             </div>
         </form>
     </div>
