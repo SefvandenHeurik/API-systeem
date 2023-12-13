@@ -71,7 +71,7 @@ if (isset($_POST['submit'])) {
                 <input type="password" name="password" placeholder="Wachtwoord.." id="password">
             </div>
 
-            <div id="loginForgotPasswordDocenten" style="display: flex background-color#eeee";>
+            <div id="loginForgotPasswordDocenten" style="display: flex background-color:#eeee";>
                 <a href="register_form.php" class="loginForgotPasswordDocenten">Registreer</a>
                 <button type="submit" name="submit">Inloggen</button>
             </div>
