@@ -10,7 +10,7 @@ if(isset($_POST['submit'])){
    $email = mysqli_real_escape_string($conn, $_POST['email']);
    $pass = md5($_POST['password']);
    $cpass = md5($_POST['cpassword']);
-   $user_type = $_POST['user_type'];
+   
 
    $select = " SELECT * FROM user_form WHERE email = '$email' && password = '$pass' ";
 
@@ -25,7 +25,7 @@ if(isset($_POST['submit'])){
       if($pass != $cpass){
          $error[] = 'password not matched!';
       }else{
-         $insert = "INSERT INTO user_form(name, email, password, user_type) VALUES('$name','$email','$pass','$user_type')";
+         $insert = "INSERT INTO user_form(name, email, password) VALUES('$name','$email','$pass')";
          mysqli_query($conn, $insert);
          header('location:inlogdocent.php');
       }
@@ -64,10 +64,6 @@ if(isset($_POST['submit'])){
       <input type="email" name="email" required placeholder="enter your email">
       <input type="password" name="password" required placeholder="enter your password">
       <input type="password" name="cpassword" required placeholder="confirm your password">
-      <select name="user_type">
-         <option value="user">user</option>
-         <option value="admin">admin</option>
-      </select>
       <input type="submit" name="submit" value="register now" class="form-btn">
       <p>Heb je al een account? <a href="inlogdocent.php">U kunt nu inloggen</a></p>
    </form>
