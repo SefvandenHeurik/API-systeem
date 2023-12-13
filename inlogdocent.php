@@ -23,12 +23,7 @@ if (isset($_POST['submit'])) {
 
         $row = mysqli_fetch_array($result);
 
-        if ($row['user_type'] == 'admin') {
-
-            $_SESSION['admin_name'] = $row['name'];
-            header('location: docenten.php');
-        } elseif ($row['user_type'] == 'user') {
-
+         {
             $_SESSION['user_name'] = $row['name'];
             header('location: docenten.php');
         }
