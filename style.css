@@ -306,7 +306,7 @@ background-color: transparent;
   text-shadow: -1px -1px 0 #00365E, 1px -1px 0 #00365E, -1px 1px 0 #00365E, 1px 1px 0 #00365E;
   color: #00365E;
   position: absolute;
-  top: 0;
+  top: 6%;
   margin-top: 8%;
   right: 26%;
 }
@@ -322,6 +322,7 @@ background-color: transparent;
   background-color: #EEEEEE;
   font-size: 30px;
   margin-bottom: 40px;
+  
 }
 .loginForgotPasswordDocenten {
  
@@ -331,12 +332,17 @@ background-color: transparent;
 }
 
 .loginForgotPasswordDocenten, #signUpLink {
-  font-size: 14px;
-  font-weight: 400;
-  color: #00365E;
-  text-decoration: none;
-  background-color: #EEEEEE;
-  text-align:center;
+  position: absolute; 
+  top: 73%; 
+  right:29%; 
+  transform: translate(-50%, -50%); 
+  padding: 10px 20px; 
+  background-color: #DD0069; 
+  color: white; 
+  text-decoration: none; 
+  cursor: pointer;
+  border-radius: 20px;
+  outline: none; 
 }
   #loginForgotPasswordDocenten a{
   text-align:center;
@@ -344,7 +350,7 @@ background-color: transparent;
 
 #loginForgotPasswordDocenten button {
   position: absolute; 
-  top: 80%; 
+  top: 87%; 
   right: 25%; 
   transform: translate(-50%, -50%); 
   padding: 10px 20px; 

@@ -66,7 +66,7 @@ if (isset($_POST['submit'])) {
             </div>
 
             <div id="loginForgotPasswordDocenten" style="display: flex background-color#eeee";>
-                <a href="register_form.php" class="loginForgotPasswordDocenten">Registreer</a>
+                <a href="index.html" class="loginForgotPasswordDocenten">Ga terug</a>
                 <button type="submit" name="submit">Inloggen</button>
             </div>
         </form>

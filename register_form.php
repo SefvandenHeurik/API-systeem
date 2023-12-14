@@ -65,7 +65,7 @@ if(isset($_POST['submit'])){
       <input type="password" name="password" required placeholder="vul je wachtwoord in..">
       <input type="password" name="cpassword" required placeholder="vul opnieuw wachtwoord in..">
       <input type="submit" name="submit" value="registreer nu" class="form-btn">
-      <p>Heb je al een account? <a href="inlogdocent.php">U kunt nu inloggen</a></p>
+      
    </form>
 
 </div>
