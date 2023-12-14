@@ -593,7 +593,7 @@ button {
   border: solid #DD0069;
   border-radius: 3px;
   background-color: #EEEEEE;
-  color: #fff;
+  color: #000000;
   font-size: 16px;
   cursor: pointer;
 }
@@ -617,7 +617,13 @@ button:hover {
 }
 
 .error-msg{
-background-color:#EEEEEE;
-top: -20px; /* Adjust this value to move the error message higher up */
-position: relative;
+  background-color:#EEEEEE;
+  top: -20px; /* Adjust this value to move the error message higher up */
+  position: relative;
+}
+
+.btnlogout {
+  position: absolute;
+  bottom: 2%;
+  left: 2%;
 }

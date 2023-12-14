@@ -26,15 +26,15 @@ if (isset($_SESSION['user_name'])) {
 </head>
 
 <body>
+    <div class="btnLogout">   
+        <form method="POST" action="logout.php">
+            <button type="submit" name="logout" class="btnlogout" >Logout</button>
+        </form>
+    </div>  
     <div class="tekstbox1">
         <form id="myForm" method="POST" action="">
             <input type="text" id="textInput" placeholder="Type here">
             <button type="submit" name="submit">Submit</button>
-        </form>
-        
-        <!-- Logout Form -->
-        <form method="POST" action="logout.php">
-            <button type="submit" name="logout">Logout</button>
         </form>
     </div>
 </body>
