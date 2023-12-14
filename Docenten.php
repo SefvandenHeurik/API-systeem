@@ -3,10 +3,6 @@
 
 session_start();
 
-if(!isset($_SESSION['admin_name'])){
-   header('location:inlogdocent.php');
-   exit(); // Ensure that the script stops executing after the redirection
-}
 ?>
 
 <!DOCTYPE html>
