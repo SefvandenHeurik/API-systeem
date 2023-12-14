@@ -633,3 +633,7 @@ button:hover {
   bottom: 2%;
   left: 2%;
 }
+
+.body {
+  overflow-x: hidden;
+}
