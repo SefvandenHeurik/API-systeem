@@ -1,7 +1,16 @@
 <?php
+session_start();
 @include 'config.php';
 
-session_start();
+// Check if the user is logged in
+if (isset($_SESSION['user_name'])) {
+    $username = $_SESSION['user_name'];
+    echo "Welcome, $username!"; // Display a welcome message or any other content for logged-in users
+} else {
+    // Redirect to the login page if the user is not logged in
+    header('Location:inlogdocent.php');
+    exit();
+}
 
 ?>
 
@@ -21,6 +30,11 @@ session_start();
         <form id="myForm" method="POST" action="">
             <input type="text" id="textInput" placeholder="Type here">
             <button type="submit" name="submit">Submit</button>
+        </form>
+        
+        <!-- Logout Form -->
+        <form method="POST" action="logout.php">
+            <button type="submit" name="logout">Logout</button>
         </form>
     </div>
 </body>
