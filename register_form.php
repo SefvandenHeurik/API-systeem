@@ -60,11 +60,11 @@ if(isset($_POST['submit'])){
          };
       };
       ?>
-      <input type="text" name="name" required placeholder="enter your name">
-      <input type="email" name="email" required placeholder="enter your email">
-      <input type="password" name="password" required placeholder="enter your password">
-      <input type="password" name="cpassword" required placeholder="confirm your password">
-      <input type="submit" name="submit" value="register now" class="form-btn">
+      <input type="text" name="name" required placeholder="vul je naam in..">
+      <input type="email" name="email" required placeholder="vul je email in..">
+      <input type="password" name="password" required placeholder="vul je wachtwoord in..">
+      <input type="password" name="cpassword" required placeholder="vul opnieuw wachtwoord in..">
+      <input type="submit" name="submit" value="registreer nu" class="form-btn">
       <p>Heb je al een account? <a href="inlogdocent.php">U kunt nu inloggen</a></p>
    </form>
 
