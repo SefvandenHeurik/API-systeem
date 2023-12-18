@@ -5,7 +5,6 @@ session_start();
 // Check if the user is logged in
 if (isset($_SESSION['user_name'])) {
     $username = $_SESSION['user_name'];
-    echo "Welcome, $username!"; // Display a welcome message or any other content for logged-in users
 } else {
     // Redirect to the login page if the user is not logged in
     header('Location:inlogdocent.php');
@@ -25,12 +24,29 @@ if (isset($_SESSION['user_name'])) {
     <script src="main.js"></script>
 </head>
 
-<body>
-    <div class="btnLogout">   
+<body class="body">
+<div class="navbar">
+      <img class="logo" src="img/GildeICT.png" alt="gildeOpleidingen.Models.Settings?.Websitename">
+       <div class="toggle-button">
+          <input type="checkbox" id="menu-toggle">
+          <label for="menu-toggle" class="menu-icon">&#9776;</label>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+        </div>
+      </div>
+    <div class="btnLogout">
         <form method="POST" action="logout.php">
             <button type="submit" name="logout" class="btnlogout" >Logout</button>
         </form>
-    </div>  
+    </div>
+    <div id="btnAccount";>
+                <a href="register_form.php" class="btnAccount">Account</a>
+            </div>
+            <div class="btnLogout1">
+        <form method="POST" action="logout1.php">
+            <button type="submit" name="logout1" class="btnlogout1" >Mainscreen</button>
+        </form>
     <div class="tekstbox1">
         <form id="myForm" method="POST" action="">
             <input type="text" id="textInput" placeholder="Type here">
