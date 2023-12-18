@@ -35,11 +35,11 @@ if (isset($_SESSION['user_name'])) {
               <div class="bar"></div>
         </div>
       </div>
-    <div class="btnLogout">   
+    <div class="btnLogout">
         <form method="POST" action="logout.php">
             <button type="submit" name="logout" class="btnlogout" >Logout</button>
         </form>
-    </div>  
+    </div>
     <div id="btnAccount";>
                 <a href="register_form.php" class="btnAccount">Account</a>
 
