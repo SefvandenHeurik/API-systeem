@@ -42,8 +42,11 @@ if (isset($_SESSION['user_name'])) {
     </div>
     <div id="btnAccount";>
                 <a href="register_form.php" class="btnAccount">Account</a>
-
             </div>
+            <div class="btnLogout1">
+        <form method="POST" action="logout1.php">
+            <button type="submit" name="logout1" class="btnlogout1" >Mainscreen</button>
+        </form>
     <div class="tekstbox1">
         <form id="myForm" method="POST" action="">
             <input type="text" id="textInput" placeholder="Type here">

@@ -633,6 +633,11 @@ button:hover {
   top: 2%;
   right: 2%;
 }
+.btnlogout1 {
+  position: absolute;
+  top: 2%;
+  right: 16.5%;
+}
 
 .body {
   overflow-x: hidden;
@@ -641,7 +646,7 @@ button:hover {
 .btnAccount{
   position: absolute;
   top: 2%;
-  right: 10%;
+  right: 9%;
 }
 .btnAccount:hover{
   background-color: #DD0069; 
