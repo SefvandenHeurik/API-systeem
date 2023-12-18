@@ -605,7 +605,7 @@ button {
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: #DD0069;
 }
 
 .tekstbox1 {
@@ -630,10 +630,29 @@ button:hover {
 
 .btnlogout {
   position: absolute;
-  bottom: 2%;
-  left: 2%;
+  top: 2%;
+  right: 2%;
 }
 
 .body {
   overflow-x: hidden;
+}
+
+.btnAccount{
+  position: absolute;
+  top: 2%;
+  right: 10%;
+}
+.btnAccount:hover{
+  background-color: #DD0069; 
+}
+.btnAccount, a{
+  padding: 10px 15px;
+  border: solid #DD0069;
+  border-radius: 3px;
+  background-color: #EEEEEE;
+  color: #000000;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration:none;
 }
