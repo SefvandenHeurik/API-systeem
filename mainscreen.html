@@ -8,7 +8,7 @@
   <title>mainscreen</title>
 </head>
 
-<body>
+<body class="body">
   <div class="navbar">
     <img class="logo" src="img/GildeICT.png" alt="gildeOpleidingen.Models.Settings?.Websitename">
     <img class="Devops" src="img/DevOps.png" alt="gildeOpleidingen.Models.Settings?.Websitename">
@@ -31,11 +31,10 @@
     <div class="container2"></div>
     <div class="container3"></div>
     
-    <!-- JavaScript-code om de pagina direct te openen en in container2 weer te geven -->
     <script>
       // Vervang 'Het weer API pagina/index.html' door het juiste pad naar je pagina
       var pagePath = 'Het weer API pagina/index.html';
-      
+    
       // Functie om de inhoud van de pagina in container2 in te voegen
       function loadPage() {
         var container3 = document.querySelector('.container3');
@@ -44,12 +43,28 @@
         iframe.src = pagePath;
         iframe.style.width = '100%';
         iframe.style.height = '100%';
+        iframe.style.border = 'none'; // Optional: Remove iframe border
+    
+        // Hide both horizontal and vertical scrollbars
+        iframe.style.overflow = 'hidden';
+    
+        // Wait for the iframe content to load
+        iframe.onload = function () {
+          // Access the iframe content document
+          var iframeDocument = iframe.contentDocument || iframe.contentWindow.document;
+    
+          // Hide scrollbars within the iframe content
+          iframeDocument.body.style.overflow = 'hidden';
+        };
+    
         container3.appendChild(iframe);
       }
-
+    
       // Laad de pagina wanneer de pagina is geladen
       window.onload = loadPage;
     </script>
+    
+    
   </div>
 
 </body>
