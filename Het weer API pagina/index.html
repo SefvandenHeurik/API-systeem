@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weer Applicatie</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <script src="./script.js" defer></script>
+</head>
+
+<body>
+  <div class="card">
+    <div class="weather loading">
+      <h2 class="city">Het weer in <span id="city">Roermond</span></h2>
+      <h1 class="temp" id="temperature">51°C</h1>
+      <div class="flex">
+        <img src="https://openweathermap.org/img/wn/04n.png" alt="" class="icon" id="weatherIcon" />
+        <div class="description" id="weatherDescription">Bewolkt</div>
+      </div>
+      <div class="Luchtvochtigheid" id="humidity">Luchtvochtigheid: 60%</div>
+      <div class="wind" id="windSpeed">Windsnelheid: 6.2 km/h</div>
+    </div>
+  </div>
+</body>
+
+</html>

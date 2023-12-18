@@ -1,39 +1,56 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title></title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="style.css">
   <script src="main.js"></script>
+  <title>Jouw Pagina Titel</title>
 </head>
+<body>
 
-<body class="body">
-    <div class="navbar">
-      <img class="logo" src="img/GildeICT.png" alt="gildeOpleidingen.Models.Settings?.Websitename">
-      <img class="Devops" src="img/DevOps.png" alt="gildeOpleidingen.Models.Settings?.Websitename">
-      
-      <div id="logoutButton2">
-        <button onclick="redirectToindex()"></button>
+  <div class="navbar">
+    <img class="logo" src="img/GildeICT.png" alt="gildeOpleidingen.Models.Settings?.Websitename">
+    <img class="Devops" src="img/DevOps.png" alt="gildeOpleidingen.Models.Settings?.Websitename">
+    
+    <div id="logoutButton2">
+      <button onclick="redirectToindex()">Logout</button>
     </div>
        
-       <div class="toggle-button">
-          <input type="checkbox" id="menu-toggle">
-          <label for="menu-toggle" class="menu-icon">&#9776;</label>
-              <div class="bar"></div>
-              <div class="bar"></div>
-              <div class="bar"></div>
-        </div>
-      </div>
+    <div class="toggle-button">
+      <input type="checkbox" id="menu-toggle">
+      <label for="menu-toggle" class="menu-icon">&#9776;</label>
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+  </div>
+  
+  <div class="container">
+    <!-- Inhoud van de pagina wordt weergegeven in container2 -->
+    <div class="container2"></div>
+    <div class="container3"></div>
+    
+    <!-- JavaScript-code om de pagina direct te openen en in container2 weer te geven -->
+    <script>
+      // Vervang 'Het weer API pagina/index.html' door het juiste pad naar je pagina
+      var pagePath = 'Het weer API pagina/index.html';
       
-        <div class="container">
-              <div class="container2"></div>
-              <div class="container3"></div>
-        </div>
+      // Functie om de inhoud van de pagina in container2 in te voegen
+      function loadPage() {
+        var container3 = document.querySelector('.container3');
+        container3.innerHTML = ''; // Leeg de inhoud van container2
+        var iframe = document.createElement('iframe');
+        iframe.src = pagePath;
+        iframe.style.width = '100%';
+        iframe.style.height = '100%';
+        container3.appendChild(iframe);
+      }
 
-        
+      // Laad de pagina wanneer de pagina is geladen
+      window.onload = loadPage;
+    </script>
+  </div>
 
 </body>
 </html>
-
-
