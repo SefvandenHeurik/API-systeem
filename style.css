@@ -30,7 +30,7 @@
   text-decoration: none; /* Verwijder de standaard onderstreping van de link */
   cursor: pointer;
   width: 13%;
-  border: none; /* Remove the border */
+  border: none; /* Remove the border */   
   outline: none; /* Remove the outline */
 }
 
