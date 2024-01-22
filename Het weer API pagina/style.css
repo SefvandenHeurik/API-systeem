@@ -4,6 +4,7 @@ body {
   background: #222;
   background-image: url('https://source.unsplash.com/1600x900/?landscape');
   font-size: 120%;
+  
 }
 .card {
   display: flex;
@@ -18,7 +19,7 @@ body {
   margin: 1em;
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 42.5%;
   transform: translate(-50%, -50%);
   overflow: hidden; 
 }

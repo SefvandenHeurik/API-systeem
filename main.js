@@ -42,3 +42,4 @@ function redirectToindex() {
   // Reset het invoerveld naar leeg
   document.getElementById("textInput").value = "";
 
+  
