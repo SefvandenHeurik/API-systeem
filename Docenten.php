@@ -20,7 +20,8 @@ if(isset($_POST['submit'])){
     // Perform the query
     if(mysqli_query($conn, $query)){
         // Data successfully inserted
-        echo '<script>alert("Message inserted successfully");</script>';
+        echo '<script>alert("Message inserted successfully"); window.location.href="docenten.php";</script>';
+        exit(); // terminate script execution to prevent further processing
     } else {
         // Display an error message if the query fails
         echo "Error: " . mysqli_error($conn);
@@ -40,33 +41,34 @@ if(isset($_POST['submit'])){
 </head>
 
 <body class="body">
-<div class="navbar">
-      <img class="logo" src="img/GildeICT.png" alt="gildeOpleidingen.Models.Settings?.Websitename">
-       <div class="toggle-button">
-          <input type="checkbox" id="menu-toggle">
-          <label for="menu-toggle" class="menu-icon">&#9776;</label>
-              <div class="bar"></div>
-              <div class="bar"></div>
-              <div class="bar"></div>
-        </div>
-      </div>
-    <div class="btnLogout">
-        <form method="POST" action="logout.php">
-            <button type="submit" name="logout" class="btnlogout" >Logout</button>
-        </form>
-    </div>
-    <div id="btnAccount";>
-                <a href="register_form.php" class="btnAccount">Account</a>
+    <div class="navbar">
+        <img class="logo" src="img/GildeICT.png" alt="gildeOpleidingen.Models.Settings?.Websitename">
+        <div class="toggle-button">
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">&#9776;</label>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
             </div>
-            <div class="btnLogout1">
-        <form method="POST" action="logout1.php">
-            <button type="submit" name="logout1" class="btnlogout1" >Mainscreen</button>
-        </form>
-        <div class="tekstbox1">
-        <form id="myForm" method="POST" action="">
-            <input type="text" name="text" required placeholder="vul je bericht in">
-            <button type="submit" name="submit">Submit</button>
-        </form>
+        </div>
+        <div class="btnLogout">
+            <form method="POST" action="logout.php">
+                <button type="submit" name="logout" class="btnlogout" >Logout</button>
+            </form>
+        </div>
+        <div id="btnAccount";>
+                    <a href="register_form.php" class="btnAccount">Account</a>
+                </div>
+                <div class="btnLogout1">
+            <form method="POST" action="logout1.php">
+                <button type="submit" name="logout1" class="btnlogout1" >Mainscreen</button>
+            </form>
+            <div class="tekstbox1">
+            <form id="myForm" method="POST" action="">
+                <input type="text" name="text" required placeholder="vul je bericht in">
+                <button type="submit" name="submit">Submit</button>
+            </form>
+        </div>
     </div>
 </body>
 
