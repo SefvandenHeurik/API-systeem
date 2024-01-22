@@ -93,7 +93,7 @@
   left: 3%;
   border: 3px solid #DD0069;
   margin-top: 8%; /* Make sure units are specified, e.g., top: 5%; or top: 10px; */
-  border-radius: 10px;
+
 }
 
 .container2 {
@@ -106,7 +106,7 @@
   background-color: #EEEEEE;
   right: 3%;
   border: 3px solid #DD0069;
-  border-radius: 10px;
+  margin-top: -10.5%;
 }
 
 .tijdstempel {
@@ -140,7 +140,6 @@
   left: 105%;
   background-color: #EEEEEE;
   border: 3px solid #DD0069;
-  border-radius: 10px;
 }
 
 
