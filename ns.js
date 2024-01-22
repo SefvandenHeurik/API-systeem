@@ -101,7 +101,7 @@ function displayDepartures(data) {
             departureRow.appendChild(platformCell);
             departureRow.appendChild(destinationCell);
             departureRow.appendChild(timeUntilDepartureCell);
-            departureRow.appendChild(trainTypeCell);
+          //  departureRow.appendChild(trainTypeCell); als we deze erin willen moet je dit gewoon uit commenten. (welke type trein)
 
             // Append the row to the departures table body
             departuresTableBody.appendChild(departureRow);
@@ -139,3 +139,16 @@ function getTimeUntilDeparture(plannedTime, actualTime) {
     }
     return '';
 }
+
+// Get the body element
+const body = document.body;
+
+// Enable scrolling when the page is loaded
+window.onload = function () {
+  body.style.overflow = 'auto';
+};
+
+// Disable scrolling when the train API iframe is loaded
+document.querySelector('.train-api-iframe').onload = function () {
+  body.style.overflow = 'hidden';
+};

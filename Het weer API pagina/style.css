@@ -19,7 +19,7 @@ body {
   margin: 1em;
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 42.5%;
   transform: translate(-50%, -50%);
   overflow: hidden; 
 }
