@@ -11,6 +11,21 @@ if (isset($_SESSION['user_name'])) {
     exit();
 }
 
+if(isset($_POST['submit'])){
+    $text = mysqli_real_escape_string($conn, $_POST['text']);
+
+    // Assuming you have a 'meldingen' table in your database
+    $query = "INSERT INTO meldingen (`name`, `tekst`) VALUES ('$username', '$text')";
+
+    // Perform the query
+    if(mysqli_query($conn, $query)){
+        // Data successfully inserted
+        echo '<script>alert("Message inserted successfully");</script>';
+    } else {
+        // Display an error message if the query fails
+        echo "Error: " . mysqli_error($conn);
+    }
+}
 ?>
 
 <!DOCTYPE html>
@@ -47,9 +62,9 @@ if (isset($_SESSION['user_name'])) {
         <form method="POST" action="logout1.php">
             <button type="submit" name="logout1" class="btnlogout1" >Mainscreen</button>
         </form>
-    <div class="tekstbox1">
+        <div class="tekstbox1">
         <form id="myForm" method="POST" action="">
-            <input type="text" id="textInput" placeholder="Type here">
+            <input type="text" name="text" required placeholder="vul je bericht in">
             <button type="submit" name="submit">Submit</button>
         </form>
     </div>
