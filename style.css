@@ -369,7 +369,7 @@
 #signUpLink {
   position: absolute;
   top: 160%;
-  right: 24.5%;
+  right: 20.1%;
   transform: translate(-50%, -50%);
   padding: 10px 30px;
   background-color: #DD0069;
@@ -378,6 +378,7 @@
   cursor: pointer;
   border-radius: 20px;
   outline: none;
+  border: solid #DD0069;
 }
 
 #loginForgotPasswordDocenten a {
@@ -387,7 +388,7 @@
 #loginForgotPasswordDocenten button {
   position: absolute;
   top: 130%;
-  right: 23%;
+  right: 19%;
   transform: translate(-50%, -50%);
   padding: 10px 30px;
   background-color: #DD0069;
@@ -397,6 +398,8 @@
   width: 30%;
   border-radius: 20px;
   outline: none;
+  border: solid #DD0069;
+
 
 }
 
@@ -727,6 +730,10 @@ input[type="text"] {
 }
 
 .btnaccount:hover {
+  background-color: #DD0069;
+}
+
+.submitbtn:hover {
   background-color: #DD0069;
 }
 
