@@ -60,9 +60,7 @@ if(isset($_POST['submit'])){
                 <div class="bar"></div>
             </div>
         </div>
-        <div class="btnLogout">
 
-        </div>
         <div id="btnAccount";>
                     <a class="btnaccount" href="register_form.php" class="btnAccount">Account</a>
                 </div>
