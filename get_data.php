@@ -7,7 +7,7 @@ $result = $conn->query($sql);
 if ($result->num_rows > 0) {
     // Output table header
     echo "<table>";
-    echo "<tr><th>Tekst</th><th>Tijdstempel</th><th>Name</th></tr>";
+    echo "<tr><th>Tekst</th><th>Tijdstempel</th><th>Naam</th></tr>";
 
     // Output data of each row
     while ($row = $result->fetch_assoc()) {
