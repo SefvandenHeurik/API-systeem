@@ -112,6 +112,12 @@
   /* Make sure units are specified, e.g., top: 5%; or top: 10px; */
 
 }
+.container,td{
+  Background-color:rgb(255, 255, 255);
+}
+.container,th{
+  Background-color:rgb(255, 255, 255);
+}
 
 /* ... Your existing CSS ... */
 
@@ -709,4 +715,7 @@ a {
 
 iframe {
   overflow: hidden !important;
+}
+.php-generated-row {
+  background-color: white; /* Set the desired background color */
 }

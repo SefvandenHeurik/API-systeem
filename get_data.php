@@ -17,7 +17,7 @@ if ($result->num_rows > 0) {
         $name = $row["name"];
 
         // Display data in table rows
-        echo "<tr>";
+        echo "<tr class='php-generated-row'>";
         echo "<td>$text</td>";
         echo "<td>$timestamp</td>";
         echo "<td>$name</td>";
@@ -31,4 +31,4 @@ if ($result->num_rows > 0) {
 }
 
 $conn->close();
-?>
+

@@ -8,4 +8,3 @@ session_destroy();
 
 header('location:mainscreen.php');
 
-?>
