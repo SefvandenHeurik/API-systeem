@@ -133,7 +133,8 @@
   height: 60vh;
   width: 250px;
   position: relative;
-  left: 105%;
+  left:41.5%;
+  margin-top:-27.8%;
   background-color: #EEEEEE;
   border: 3px solid #DD0069;
 }
