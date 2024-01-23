@@ -16,7 +16,7 @@ function redirectToDash() {
 
 function redirectTomainscreen() {
   // Redirect to mainscreen.html
-  window.location.href = "mainscreen.html";
+  window.location.href = "mainscreen.php";
 }
 function redirectToregister() {
     // Redirect to forgetpassword.html
@@ -39,7 +39,6 @@ function redirectToindex() {
   // Voer de actie uit met de opgehaalde tekst (bijv. verzenden naar server)
   console.log("Ingevoerde tekst: ", textValue);
   
-  // Reset het invoerveld naar leeg
-  document.getElementById("textInput").value = "";
+ 
 
   

@@ -148,7 +148,3 @@ window.onload = function () {
   body.style.overflow = 'auto';
 };
 
-// Disable scrolling when the train API iframe is loaded
-document.querySelector('.train-api-iframe').onload = function () {
-  body.style.overflow = 'hidden';
-};

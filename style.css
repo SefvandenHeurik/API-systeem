@@ -112,21 +112,24 @@
   /* Make sure units are specified, e.g., top: 5%; or top: 10px; */
 
 }
+.container,td{
+  Background-color:#eeee;
+}
+.container,th{
+  Background-color:#c1bdbdee;
+}
 
 /* ... Your existing CSS ... */
 
 .container2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   height: 60vh; /* You can adjust this value */
   width: 450px;
   position: fixed;
   background-color: #EEEEEE;
   right: 3%;
   border: 3px solid #DD0069;
-  
   overflow: hidden;
+  margin-top:-27.5%;
 }
 
 .container3 {
@@ -136,7 +139,8 @@
   height: 60vh;
   width: 250px;
   position: relative;
-  left: 105%;
+  left:41.5%;
+  margin-top:-27.8%;
   background-color: #EEEEEE;
   border: 3px solid #DD0069;
 }
@@ -364,10 +368,10 @@
 .loginForgotPasswordDocenten,
 #signUpLink {
   position: absolute;
-  top: 73%;
-  right: 29%;
+  top: 87%;
+  right: 24.5%;
   transform: translate(-50%, -50%);
-  padding: 10px 20px;
+  padding: 10px 30px;
   background-color: #DD0069;
   color: white;
   text-decoration: none;
@@ -382,7 +386,7 @@
 
 #loginForgotPasswordDocenten button {
   position: absolute;
-  top: 87%;
+  top: 73%;
   right: 25%;
   transform: translate(-50%, -50%);
   padding: 10px 20px;
@@ -740,4 +744,7 @@ a {
 
 iframe {
   overflow: hidden !important;
+}
+.php-generated-row {
+  background-color: white; /* Set the desired background color */
 }
