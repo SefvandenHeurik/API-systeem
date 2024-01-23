@@ -43,6 +43,15 @@ if(isset($_POST['submit'])){
 <body class="body">
     <div class="navbar">
         <img class="logo" src="img/GildeICT.png" alt="gildeOpleidingen.Models.Settings?.Websitename">
+        
+        <form method="POST" action="logout1.php">
+            <button class="btnmainscreen" type="submit" name="logout1" class="btnlogout1" ></button>    
+        </form> 
+
+        <form method="POST" action="logout.php">
+            <button  class="btnlogout" type="submit" name="logout" class="btnlogout" >Logout</button> 
+        </form>    
+
         <div class="toggle-button">
             <input type="checkbox" id="menu-toggle">
             <label for="menu-toggle" class="menu-icon">&#9776;</label>
@@ -52,21 +61,16 @@ if(isset($_POST['submit'])){
             </div>
         </div>
         <div class="btnLogout">
-            <form method="POST" action="logout.php">
-                <button type="submit" name="logout" class="btnlogout" >Logout</button>
-            </form>
+
         </div>
         <div id="btnAccount";>
-                    <a href="register_form.php" class="btnAccount">Account</a>
+                    <a class="btnaccount" href="register_form.php" class="btnAccount">Account</a>
                 </div>
-                <div class="btnLogout1">
-            <form method="POST" action="logout1.php">
-                <button type="submit" name="logout1" class="btnlogout1" >Mainscreen</button>
-            </form>
+
             <div class="tekstbox1">
             <form id="myForm" method="POST" action="">
                 <input type="text" name="text" required placeholder="vul je bericht in">
-                <button type="submit" name="submit">Submit</button>
+                <button class="submitbtn" type="submit" name="submit">Submit</button>
             </form>
         </div>
     </div>

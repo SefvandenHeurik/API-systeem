@@ -620,6 +620,7 @@ form {
   width: 440px;
   margin: 0 auto;
   background-color: #EEEEEE;
+  transform: translate(0px, 0);
 }
 
 input[type="text"] {
@@ -629,12 +630,16 @@ input[type="text"] {
   border-radius: 5px;
   font-size: 16px;
   background-color: #EEEEEE;
-  height: 360px;
   text-align: left;
   text-align: top;
+  width: 642px;
+  margin-left: -23%;
+  top: 8%;
+  position: relative;
+
 }
 
-button {
+.submitbtn {
   padding: 10px 15px;
   border: solid #DD0069;
   border-radius: 3px;
@@ -642,25 +647,30 @@ button {
   color: #000000;
   font-size: 16px;
   cursor: pointer;
+  width: 642px;
+  margin-left: -23%;
+  position: relative;
+  top: 8%;
 }
 
-button:hover {
+.btnlogout:hover {
   background-color: #DD0069;
 }
 
 .tekstbox1 {
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: 60vh;
-  width: 450px;
+  height: 16vh;
+  width: 650px;
   position: relative;
   background-color: #EEEEEE;
-  left: 3%;
+  margin: auto;
   border: 3px solid #DD0069;
-  margin-top: 8%;
+  margin-top: 13%;
   /* Make sure units are specified, e.g., top: 5%; or top: 10px; */
   border-radius: 10px;
+
+
 }
 
 .error-msg {
@@ -671,15 +681,28 @@ button:hover {
 }
 
 .btnlogout {
-  position: absolute;
-  top: 2%;
-  right: 2%;
+  position: relative;
+  top: 0%;
+  left: 105%;
+  width: 20%;  padding: 10px 15px;
+  border: solid #DD0069;
+  border-radius: 3px;
+  background-color: #EEEEEE;
+  color: #000000;
+  font-size: 16px;
+  cursor: pointer;
 }
 
-.btnlogout1 {
-  position: absolute;
-  top: 2%;
-  right: 16.5%;
+.btnmainscreen {
+  position: relative;
+  top: 0%;
+  left: -70%;
+  width: 50%;  padding: 10px 15px;
+  background-color: transparent;
+  font-size: 16px;
+  cursor: pointer;
+  border: solid transparent;
+  border-radius: 3px;
 }
 
 .body {
@@ -687,17 +710,23 @@ button:hover {
   overflow-y: hidden;
 }
 
-.btnAccount {
+.btnaccount {
   position: absolute;
-  top: 2%;
-  right: 9%;
+  top: 1.8%;
+  right: 7%;  padding: 10px 15px;
+  border: solid #DD0069;
+  border-radius: 3px;
+  background-color: #EEEEEE;
+  color: #000000;
+  font-size: 16px;
+  cursor: pointer;
 }
 
-.btnAccount:hover {
+.btnaccount:hover {
   background-color: #DD0069;
 }
 
-.btnAccount,
+.btnaccount,
 a {
   padding: 10px 15px;
   border: solid #DD0069;
