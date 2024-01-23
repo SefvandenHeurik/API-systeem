@@ -125,15 +125,13 @@
   background-color: #EEEEEE;
   right: 3%;
   border: 3px solid #DD0069;
-  
   overflow: hidden;
 }
-
 .container3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 60vh;
+  height: 0vh;
   width: 250px;
   position: relative;
   left: 105%;
