@@ -47,6 +47,7 @@
 
     // Functie om de inhoud van de pagina in container2 in te voegen
     function loadPageContainer2() {
+      
       var container2 = document.querySelector('.container2');
       container2.innerHTML = '';
       var iframe = document.createElement('iframe');
@@ -63,6 +64,7 @@
 
     // Functie om de inhoud van de pagina in container2 in te voegen
     function loadPageContainer3() {
+      
       var container3 = document.querySelector('.container3');
       container3.innerHTML = ''; // Leeg de inhoud van container2
       var iframe = document.createElement('iframe');

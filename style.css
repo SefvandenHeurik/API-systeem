@@ -116,9 +116,6 @@
 /* ... Your existing CSS ... */
 
 .container2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   height: 60vh; /* You can adjust this value */
   width: 450px;
   position: fixed;
@@ -126,12 +123,14 @@
   right: 3%;
   border: 3px solid #DD0069;
   overflow: hidden;
+  margin-top:-27.5%;
 }
+
 .container3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 0vh;
+  height: 60vh;
   width: 250px;
   position: relative;
   left: 105%;
