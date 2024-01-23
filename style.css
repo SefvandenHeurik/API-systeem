@@ -364,10 +364,10 @@
 .loginForgotPasswordDocenten,
 #signUpLink {
   position: absolute;
-  top: 73%;
-  right: 29%;
+  top: 87%;
+  right: 24.5%;
   transform: translate(-50%, -50%);
-  padding: 10px 20px;
+  padding: 10px 30px;
   background-color: #DD0069;
   color: white;
   text-decoration: none;
@@ -382,7 +382,7 @@
 
 #loginForgotPasswordDocenten button {
   position: absolute;
-  top: 87%;
+  top: 73%;
   right: 25%;
   transform: translate(-50%, -50%);
   padding: 10px 20px;
