@@ -115,7 +115,6 @@
 
       container3.appendChild(iframe);
     }
-
     // Laad de pagina's wanneer de pagina is geladen
     window.onload = function () {
       loadPageContainer2();
