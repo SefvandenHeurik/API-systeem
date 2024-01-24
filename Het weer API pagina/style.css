@@ -14,14 +14,18 @@ body {
   border-radius: 10px;
   background: #000000d0;
   color: white;
-  padding: 2em;
+  padding: 100px;
   max-width: 420px;
   margin: 1em;
   position: absolute;
   top: 50%;
   left: 42.5%;
   transform: translate(-50%, -50%);
-  overflow: hidden; 
+  overflow: hidden;
+  background-image: url('pad/naar/je/achtergrondafbeelding.jpg');
+  background-size: cover; /* Zorgt ervoor dat de afbeelding de volledige achtergrond bedekt */
+  background-position: center; /* Plaatst de afbeelding in het midden van de achtergrond */
+  background-repeat: no-repeat; /* Voorkomt herhaling van de afbeelding */
 }
 
 
@@ -41,12 +45,11 @@ button {
   height: 44px;
   width: 44px;
   outline: none;
-  background: #7c7c7c2b;
+  background: #0000002b;
   color: white;
   cursor: pointer;
   transition: 0.2s ease-in-out;
 }
-
 
 input.search-bar {
   border: none;
