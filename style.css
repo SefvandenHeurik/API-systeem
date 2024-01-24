@@ -641,7 +641,7 @@ input[type="text"] {
   text-align: top;
   width: 642px;
   margin-left: -23%;
-  top: 8%;
+  top: 4%;
   position: relative;
 
 }
@@ -657,7 +657,7 @@ input[type="text"] {
   width: 642px;
   margin-left: -23%;
   position: relative;
-  top: 8%;
+  top: 4%;
 }
 
 
@@ -674,11 +674,23 @@ input[type="text"] {
   background-color: #EEEEEE;
   margin: auto;
   border: 3px solid #DD0069;
-  margin-top: 13%;
+  margin-top: 4%;
   /* Make sure units are specified, e.g., top: 5%; or top: 10px; */
   border-radius: 10px;
+}
 
-
+.containermeldingen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  width: 450px;
+  position: relative;
+  background-color: #EEEEEE;
+  left: 35%;
+  border: 3px solid #DD0069;
+  margin-top: 2%;
+  /* Make sure units are specified, e.g., top: 5%; or top: 10px; */
 }
 
 .error-msg {
@@ -756,4 +768,5 @@ iframe {
 .php-generated-row {
   background-color: white; /* Set the desired background color */
 }
+
 
