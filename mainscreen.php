@@ -44,6 +44,8 @@
     // Vervang 'Het weer API pagina/index.html' door het juiste pad naar je pagina
     var pagePathContainer2 = 'nsNL.html';
     var pagePath = 'Het weer API pagina/index.html';
+    const refreshMinutes = 10;
+    const refreshTimer = 60 * 1000 * refreshMinutes;
 
     // Functie om de inhoud van de pagina in container2 in te voegen
     function loadPageContainer2() {
@@ -86,6 +88,7 @@
       };
 
       container3.appendChild(iframe);
+ 
     }
 
     // Functie om de inhoud van de pagina in container2 in te voegen
@@ -119,6 +122,16 @@
       loadPageContainer3();
       loadPage();
     };
+
+    /*refresh functie dat de site zich opnieuw laad per x minuten. 
+    Dit is puur voor de 2 apis zodat de website zich niet constant herlaad.*/ 
+    function refresh() {
+      loadPageContainer2();
+      loadPageContainer3();
+      setTimeout(refresh, refreshTimer);
+    };
+    
+    setTimeout(refresh, refreshTimer);
   </script>
 </body>
 
