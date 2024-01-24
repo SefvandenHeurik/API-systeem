@@ -35,7 +35,7 @@ if (isset($_POST['submit'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
     <script src="main.js"></script>
-    <title>Docenten Inlog</title>
+    <title>Docent Inlog</title>
 </head>
 
 <body>
@@ -43,7 +43,7 @@ if (isset($_POST['submit'])) {
     <div class="containerdocenteninlog">
 
         <div>
-            <p>Docenten Inlog</p>
+            <p>Docent Inlog</p>
         </div>
 
      
