@@ -130,6 +130,10 @@
   border: 3px solid #DD0069;
   overflow: hidden;
   margin-top:-28.25%;
+  overflow: auto;
+  max-height: 100%;
+  display: flex;
+  flex-direction: column-reverse;
 }
 
 .container3 {
