@@ -1,11 +1,20 @@
+# TV dashboard
+
+
+Developers: 
+
 > Om dit te kunnen gebruiken moet je dit project in je wamp of xampp zetten, verder hebben we ook een database
 
 
-# 
+## Keuzes
 
-# Applicatie starten
+Gebruik iframe,  php
 
-```javascript
+## Code structure
 
-var a = 10;
-```
+
+
+## Applicatie starten
+
+
+
