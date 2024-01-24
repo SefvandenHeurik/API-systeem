@@ -19,7 +19,7 @@ if (isset($_POST['submit'])) {
 
          {
             $_SESSION['user_name'] = $row['name'];
-            header('location: docenten.php');
+            header('location: Docenten.php');
         }
     } else {
         $error[] = 'Onjuist e-mail of wachtwoord!';
