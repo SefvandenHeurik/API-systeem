@@ -71,7 +71,17 @@ if(isset($_POST['submit'])){
                 <button class="submitbtn" type="submit" name="submit">Submit</button>
             </form>
         </div>
+        <div class="containermeldingen">
+    <?php
+    // Include the configuration file
+    include 'config.php';
+
+    // Include the PHP code to fetch and display data
+    include 'get_data.php';
+    ?>
+  </div>
     </div>
+
 </body>
 
 </html>
