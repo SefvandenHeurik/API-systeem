@@ -37,7 +37,8 @@
     ?>
   </div>
 
-  <div class="container2"></div>
+  <div class="container2">
+</div>
   <div class="container3"></div>
 
   <script>
