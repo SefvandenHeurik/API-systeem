@@ -121,13 +121,13 @@
       loadPageContainer2();
       loadPageContainer3();
       loadPage();
+   
     };
 
     /*refresh functie dat de site zich opnieuw laad per x minuten. 
     Dit is puur voor de 2 apis zodat de website zich niet constant herlaad.*/ 
-    function refresh() {
-      loadPageContainer2();
-      loadPageContainer3();
+     function refresh() {
+      location.reload(true); // Reload the entire page
       setTimeout(refresh, refreshTimer);
     };
     
