@@ -38,6 +38,8 @@ function redirectToindex() {
   
   // Voer de actie uit met de opgehaalde tekst (bijv. verzenden naar server)
   console.log("Ingevoerde tekst: ", textValue);
+
+  
   
  
 
